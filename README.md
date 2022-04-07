@@ -2,7 +2,7 @@
 Auto backup on mikrotik RouterOS and E-mail the backup file
 1. Go to router Tools → Email and set valid email for router send Email
 
-<img src="Email.jpg">
+<center><img src="Email.jpg"></center>
 
 2. copy AutoBakcup script to your router
 3. Go to Terminal and import script
