@@ -9,12 +9,12 @@ Auto backup on mikrotik RouterOS and E-mail the backup file
 ```bash script
 import file=AutoBakcup.rsc
 ```
-4. for Schedule the script copy this command to the terminal
+4. for Schedule the script copy this command to the `Terminal`
 ```bash script
 /system scheduler
 add interval=4w2d name="Run AutoBackup" on-event=AutoBackup policy=\
     ftp,read,write,policy,test,password,sniff,sensitive,romon start-time=startup
 ```
-`this script last test on RoS 6.49.5`
+> this script last test on RoS 6.49.5
 
 Enjoy the Code !
