@@ -15,6 +15,6 @@ import file=AutoBakcup.rsc
 add interval=4w2d name="Run AutoBackup" on-event=AutoBackup policy=\
     ftp,read,write,policy,test,password,sniff,sensitive,romon start-time=startup
 ```
-> this script last test on RoS 6.49.5
+> last test this script on RoS 6.49.5
 
-Enjoy the Code !
+**Enjoy the Code !**
